@@ -1,1 +1,13 @@
+
+
 /* You can add global styles to this file, and also import other style files */
+
+@import './app/styles/material';
+@import './app/styles/colors';
+@import '~bootstrap/scss/bootstrap';
+
+@import '../src/app/styles/portfolio';
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
