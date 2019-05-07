@@ -5,11 +5,10 @@
         <i mat-card-avatar class="fa fa-mobile-alt accent-color fa-2x"></i>
         <mat-card-title>Responsive</mat-card-title>
       </mat-card-header>
-
       <mat-card-content>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro quaerat dolore nam, soluta voluptatem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo necessitatibus animi? Aperiam,
+          at earum?</p>
       </mat-card-content>
-
     </mat-card>
   </div>
   <div class="col-12 col-md-4">
@@ -18,11 +17,10 @@
         <i mat-card-avatar class="fa fa-tablet-alt accent-color fa-2x"></i>
         <mat-card-title>Web</mat-card-title>
       </mat-card-header>
-
       <mat-card-content>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro quaerat dolore nam, soluta voluptatem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo necessitatibus animi? Aperiam,
+          at earum?</p>
       </mat-card-content>
-
     </mat-card>
   </div>
   <div class="col-12 col-md-4">
@@ -31,11 +29,10 @@
         <i mat-card-avatar class="fa fa-desktop accent-color fa-2x"></i>
         <mat-card-title>Design</mat-card-title>
       </mat-card-header>
-
       <mat-card-content>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro quaerat dolore nam, soluta voluptatem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo necessitatibus animi? Aperiam,
+          at earum?</p>
       </mat-card-content>
-
     </mat-card>
   </div>
 </div>
@@ -43,9 +40,10 @@
 
 <div class="row">
   <div class="col-12 col-sm-6 col-md-8">
-    <h1>About me</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eius eaque explicabo quisquam reprehenderit fugiat, dignissimos itaque velit! Accusamus vitae placeat quos impedit corporis voluptatem perspiciatis.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, culpa! Blanditiis, similique. Amet.</p>
+    <h3>About me</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis architecto dolore et. Temporibus error reiciendis
+      facilis minima enim, quaerat similique! Ab minima labore facilis sint ipsum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eum asperiores sint esse.</p>
   </div>
   <div class="col-12 col-sm-6 col-md-4">
     <div class="mb-3">
@@ -54,7 +52,7 @@
       <mat-progress-bar value="100"></mat-progress-bar>
     </div>
     <div class="mb-3">
-      <strong>Boostrap</strong>
+      <strong>BOOTSTRAP</strong>
       <span class="float-right">80%</span>
       <mat-progress-bar value="80" color="accent"></mat-progress-bar>
     </div>
@@ -66,59 +64,62 @@
   </div>
 </div>
 
-  <div class="row mt-5">
-    <div class="col-3 text-center">
-      <i class="fab fa-angular fa-10x angular-color d-none d-md-block"></i>
-    </div>
-    <div class="col-12 col-md-9">
-      <h2> <i class="fab fa-angular angular-color d-md-none mr-2"></i>Angular development</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore illo voluptate sit id voluptas neque! Quibusdam nemo consectetur exercitationem error dolorem eligendi molestiae aut fugit voluptatem.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum doloremque dignissimos, quia maiores pariatur? Esse laboriosam amet quia illum atque?</p>
-      <button  mat-stroked-button>View More</button>
-    </div>
+<div class="row mt-5">
+  <div class="col-3 text-center">
+    <i class="fab fa-angular fa-10x angular-color d-none d-md-block"></i>
   </div>
-
-  <div class="row mt-5">
-    <div class="col-12 col-md-9 text-right">
-      <h2>React Development<i class="fab fa-react react-color d-md-none ml-2"></i></h2>
-      <p>Minus enim veritatis illo atque corrupti obcaecati, assumenda beatae, ipsam exercitationem debitis consequuntur voluptatem deleniti! Veritatis nulla illo excepturi tenetur dolor! Voluptate velit fuga enim voluptas!</p>
-      <p>Nam ea neque veniam repudiandae, hic non voluptates minima quo cupiditate quis ab excepturi nisi autem deserunt asperiores, facilis aperiam maiores!</p>
-      <button  mat-stroked-button>View More</button>
-    </div>
-    <div class="col-3 text-center" >
-        <i class="fab fa-react fa-10x react-color d-none d-md-block"></i>
-    </div>
+  <div class="col-12 col-md-9">
+    <h2><i class="fab fa-angular angular-color d-md-none mr-2"></i>Angular Development</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias illo aut tenetur expedita vel facere,
+      doloremque aliquam facilis voluptas adipisci corrupti debitis, dolorum quidem officiis?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dicta sunt, magni voluptate distinctio, a earum
+      dolorem odio fugiat minima iste.</p>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'Angular'}" mat-stroked-button>View More</button>
   </div>
-
-  <div class="row mt-5">
-    <div class="col-3 text-center">
-        <i class="fab fa-vuejs fa-10x vue-color d-none d-md-block"></i>
-    </div>
-    <div class="col-12 col-md-9">
-      <h2><i class="fab fa-vuejs vue-color d-md-none mr-2"></i>Vue development</h2>
-      <p>Cum quas quo soluta deserunt fugit, aliquid repudiandae reprehenderit doloremque natus magni voluptatem assumenda, minus quae, nisi maiores tempore velit. In soluta sit architecto aliquid dicta?</p>
-      <p>Perferendis nostrum vero temporibus. Deleniti dicta rerum possimus consectetur quisquam repudiandae vel iusto nesciunt repellendus dolor, quos pariatur mollitia ex minus?</p>
-      <button  mat-stroked-button>View More</button>
-    </div>
+</div>
+<div class="row mt-5">
+  <div class="col-12 col-md-9 text-right">
+    <h2>React Development <i class="fab fa-react react-color d-md-none"></i> </h2>
+    <p>Veritatis hic iusto aperiam vel vitae quia ipsa cum porro assumenda veniam commodi sit, consequatur autem quos
+      nesciunt, quasi omnis iure eligendi suscipit repellendus! Odio, voluptas?</p>
+    <p>Pariatur, optio. Aut iusto architecto accusantium repellat perspiciatis quidem, unde laudantium blanditiis iure
+      omnis. Deserunt tempore possimus minus accusantium, ad eos!</p>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'React'}" mat-stroked-button>View More</button>
   </div>
+  <div class="col-3 text-center">
+    <i class="fab fa-react fa-10x react-color d-none d-md-block"></i>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-3 text-center">
+    <i class="fab fa-vuejs fa-10x vue-color d-none d-md-block"></i>
+  </div>
+  <div class="col-12 col-md-9">
+    <h2><i class="fab fa-vuejs vue-color d-md-none mr-2"></i>Vue Development</h2>
+    <p>Inventore suscipit ut error labore nemo! Expedita architecto, consequatur voluptas eius exercitationem mollitia
+      labore officia totam enim, quo fugiat dicta magnam voluptate pariatur dolores! Deserunt, ullam!</p>
+    <p>Magni, est. Alias asperiores, quasi, animi, iure corrupti consectetur modi fugit minima totam porro tenetur
+      excepturi. Delectus rerum accusamus impedit voluptate?</p>
+    <button  [routerLink]="['/portfolio']" [queryParams]="{filter:'Vue'}" mat-stroked-button>View More</button>
+  </div>
+</div>
 
-<div class="portofolio-preview">
+<div class="portfolio-preview">
   <div class="row no-gutters">
     <div class="col-12">
       <h2>Recent Apps</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ipsa libero, autem corrupti nostrum in officia et totam ab sed cum!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quia reiciendis molestiae sequi aliquam ex
+        officiis vero illum, eaque quos numquam?</p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-12 col-sm-4 col-md-4"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app1" alt="app1"></div>
-    <div class="col-12 col-sm-4 col-md-4"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app2" alt="app2"></div>
-    <div class="col-12 col-sm-4 col-md-4"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app3" alt="app3"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app4" alt="app4"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app5" alt="app5"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app6" alt="app6"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x450/000000/?text=app7" alt="app7"></div>
+  <div class="row no-gutters">
+    <div *ngFor="let item of recentProjects;index as i"
+         [ngClass]="{'col-12 col-sm-4 col-md-4': i < 3, 'col-12 col-sm-6 col-md-3': i >= 3 }">
+      <img class="img-fluid" [src]="item.preview + '?text=' + item.name" [alt]="item.name">
+    </div>
+
     <div class="col-12 mt-3">
-        <button  mat-stroked-button>View More</button>
+      <button [routerLink]="['/portfolio']" mat-stroked-button>View More</button>
     </div>
   </div>
 </div>

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "fcmnotifications-a7ec1",
+    "staging": "fcmnotifications-a7ec1"
+  }
+}
